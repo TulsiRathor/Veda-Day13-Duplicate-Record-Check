@@ -1,0 +1,24 @@
+
+DAY 13 - DUPLICATE RECORD CHECK
+Veda Technology Data Analytics Internship
+
+Dataset: Cleaned_Superstore.csv
+
+1. Total Records: 10,194
+2. Total Columns: 21
+3. Full-Row Exact Duplicates: 0
+4. Repeated Order ID + Product ID Rows: 22
+5. Distinct Repeated Key Groups: 11
+
+FINDINGS:
+No exact duplicate records were found.
+Some Order ID and Product ID combinations were repeated.
+However, the other column values differed in these records.
+
+ACTION TAKEN:
+No records were removed because repeated key combinations
+may represent separate valid sales entries.
+A separate duplicate report and cleaned copy were created.
+
+CONCLUSION:
+The dataset was preserved without deleting any records.
